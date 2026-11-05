@@ -1,0 +1,272 @@
+{
+  "activityEntities" : [
+    "dataSourceMetrics",
+    [
+      {
+        "createdDate" : "2026-08-10T02:51:36Z",
+        "event" : "dataSourceMetrics",
+        "id" : "4D4F5CA0-0862-42C9-AD83-B4AD53BBB066",
+        "subtitle" : "3 Classes, 45 Items",
+        "title" : "Data Summary"
+      }
+    ],
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-08-10T02:49:10Z",
+        "event" : "dataSourceCreated",
+        "id" : "82EAB7D0-BC46-46A2-81DE-F89A1D7E80F1",
+        "subtitle" : "Training",
+        "title" : "Data Source Created"
+      }
+    ],
+    "dataSourceTrainingStarted",
+    [
+      {
+        "createdDate" : "2026-08-10T02:51:36Z",
+        "event" : "dataSourceTrainingStarted",
+        "id" : "7846ADD4-CA4A-47BE-9951-BED6AE5C8539",
+        "subtitle" : "MyStationaryClass 1",
+        "title" : "Used By"
+      }
+    ]
+  ],
+  "createdDate" : "2026-08-10T02:49:10Z",
+  "dataPathRelativeToProjectURL" : "../programming/ML%20Stationary/Training/",
+  "dataResult" : {
+    "classesCount" : 3,
+    "createdDate" : "2026-08-10T02:49:10Z",
+    "dataAnalysis" : {
+      "classifierAnalysis" : {
+        "details" : [
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser4.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen9.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser8.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen8.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser1.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen14.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen4.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen1.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil1.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil9.png",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser6.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil15.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser10.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil2.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil10.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil8.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil12.png",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil4.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen12.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser2.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil13.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil3.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser15.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser11.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil11.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser9.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser7.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen7.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser13.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser14.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen2.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen15.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen5.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen11.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen13.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser5.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil6.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil14.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen3.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser3.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil5.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser12.jpeg",
+          [
+            "eraser"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen6.jpeg",
+          [
+            "pen"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil7.jpeg",
+          [
+            "pencil"
+          ],
+          "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen10.jpeg",
+          [
+            "pen"
+          ]
+        ],
+        "labelStats" : {
+          "eraser" : 15,
+          "pen" : 15,
+          "pencil" : 15
+        }
+      },
+      "issues" : [
+        {
+          "description" : "3 classes found, including pencil, pen, eraser",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Less than 50 total images found - add more to improve model validation",
+          "severity" : "warning"
+        },
+        {
+          "description" : "Smallest class is \"eraser\" with 15 images",
+          "severity" : "debug"
+        },
+        {
+          "description" : "Largest class is \"pencil\" with 15 images",
+          "severity" : "debug"
+        }
+      ],
+      "objectDetectorAnalysis" : {
+        "details" : {
+
+        }
+      },
+      "summary" : {
+        "canUseValidation" : 0,
+        "classCount" : 3,
+        "sampleCount" : 45
+      }
+    },
+    "dataSourceID" : "E0A9935F-6B56-4746-8EC5-120AEAD1B8FA",
+    "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/",
+    "itemsCount" : 45
+  },
+  "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/",
+  "experimentIDs" : [
+    "96E27489-3847-443F-A4DD-6F3B2E5382DF"
+  ],
+  "id" : "E0A9935F-6B56-4746-8EC5-120AEAD1B8FA",
+  "modifiedDate" : "2026-08-10T02:51:36Z",
+  "pathType" : 0,
+  "preferredFilename" : "Training",
+  "title" : "Training",
+  "version" : "1.0"
+}

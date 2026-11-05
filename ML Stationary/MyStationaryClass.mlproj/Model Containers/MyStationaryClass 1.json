@@ -1,0 +1,942 @@
+{
+  "activityEntities" : [
+    "trainingStarted",
+    [
+      {
+        "createdDate" : "2026-08-10T02:51:36Z",
+        "event" : "trainingStarted",
+        "id" : "B3E54F9F-10DA-4892-B209-809C8C7ABBBE",
+        "subtitle" : "25 iterations",
+        "title" : "Training Started"
+      }
+    ],
+    "evaluationDataAdded",
+    [
+      {
+        "createdDate" : "2026-08-10T02:53:39Z",
+        "event" : "evaluationDataAdded",
+        "id" : "10CE10F1-49A3-433E-A453-0357CA6E91F5",
+        "subtitle" : "Testing",
+        "title" : "Testing Data Added"
+      }
+    ],
+    "trainingDataAdded",
+    [
+      {
+        "createdDate" : "2026-08-10T02:49:10Z",
+        "event" : "trainingDataAdded",
+        "id" : "F0D7EF40-9164-4273-811F-7E6FDAE55AA4",
+        "subtitle" : "Training",
+        "title" : "Training Data Added"
+      }
+    ],
+    "experimentCreated",
+    [
+      {
+        "createdDate" : "2026-08-10T02:47:12Z",
+        "event" : "experimentCreated",
+        "id" : "3C05EBAC-BA85-418F-A41B-F8B5E1BF97ED",
+        "subtitle" : "MyStationaryClass 1",
+        "title" : "Model Source Created"
+      }
+    ],
+    "trainingFinished",
+    [
+      {
+        "createdDate" : "2026-08-10T02:51:38Z",
+        "event" : "trainingFinished",
+        "id" : "6D5D1A19-229E-40C5-9858-BB5C222887DB",
+        "subtitle" : "Model converged at 2 iterations",
+        "title" : "Training Completed"
+      }
+    ]
+  ],
+  "contentDataResult" : {
+    "createdDate" : "2026-08-10T02:49:10Z"
+  },
+  "createdDate" : "2026-08-10T02:47:12Z",
+  "evaluationContainerEntity" : {
+    "createdDate" : "2026-08-10T02:53:39Z",
+    "evaluationEntities" : [
+      {
+        "analysedDataType" : "datasource",
+        "createdDate" : "2026-08-10T02:51:38Z",
+        "dataResult" : {
+          "classesCount" : 1,
+          "createdDate" : "2026-08-10T02:53:39Z",
+          "dataAnalysis" : {
+            "classifierAnalysis" : {
+              "details" : [
+                "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/Testing5.jpeg",
+                [
+                  "Testing"
+                ],
+                "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/Testing4.jpeg",
+                [
+                  "Testing"
+                ],
+                "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/Testing6.jpeg",
+                [
+                  "Testing"
+                ],
+                "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/Testing1.jpeg",
+                [
+                  "Testing"
+                ],
+                "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/Testing3.jpeg",
+                [
+                  "Testing"
+                ],
+                "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/Testing2.jpeg",
+                [
+                  "Testing"
+                ]
+              ],
+              "labelStats" : {
+                "Testing" : 6
+              }
+            },
+            "issues" : [
+              {
+                "description" : "Found one folder \"Testing\" - expected at least two folders of images, named for their classes",
+                "severity" : "error"
+              },
+              {
+                "description" : "Less than 50 total images found - add more to improve model validation",
+                "severity" : "warning"
+              },
+              {
+                "description" : "Smallest class is \"Testing\" with 6 images",
+                "severity" : "debug"
+              },
+              {
+                "description" : "Largest class is \"Testing\" with 6 images",
+                "severity" : "debug"
+              }
+            ],
+            "objectDetectorAnalysis" : {
+              "details" : {
+
+              }
+            },
+            "summary" : {
+              "canUseValidation" : 0,
+              "classCount" : 1,
+              "sampleCount" : 6
+            }
+          },
+          "dataSourceID" : "34C0F5D5-B7B1-4D98-8E56-BA3CA0107B49",
+          "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/",
+          "error" : {
+            "code" : 1000,
+            "domain" : "composer.error.domain",
+            "errorType" : "error",
+            "reason" : "Found one folder \"Testing\" - expected at least two folders of images, named for their classes"
+          },
+          "itemsCount" : 6
+        },
+        "dataSourceID" : "34C0F5D5-B7B1-4D98-8E56-BA3CA0107B49",
+        "id" : "8f3ee35c-4059-43d5-ba9a-f55cb1a60c47"
+      }
+    ],
+    "id" : "9b0bdf51-6ee9-4987-ad07-039aa38c1108",
+    "modifiedDate" : "2026-08-10T02:53:39Z",
+    "previewType" : "imageClassifier",
+    "testingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-08-10T02:47:12Z",
+      "dataResult" : {
+        "createdDate" : "2026-08-10T02:49:10Z"
+      },
+      "id" : "c2971ad0-748c-4540-bff9-3532aaa69f81"
+    },
+    "trainingEvaluationEntity" : {
+      "analysedDataType" : "none",
+      "createdDate" : "2026-08-10T02:47:12Z",
+      "dataResult" : {
+        "classesCount" : 3,
+        "createdDate" : "2026-08-10T02:49:10Z",
+        "dataAnalysis" : {
+          "classifierAnalysis" : {
+            "details" : [
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil14.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen2.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil2.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil3.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen9.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil7.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen5.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil1.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen13.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil8.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil10.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen11.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen4.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser6.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen1.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen10.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil5.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser8.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser14.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil12.png",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser13.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen7.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil11.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser10.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil6.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen14.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser4.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen12.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser7.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser11.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser9.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil13.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser2.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser12.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser5.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil15.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen6.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil9.png",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen3.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen15.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen8.jpeg",
+              [
+                "pen"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser1.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser15.jpeg",
+              [
+                "eraser"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil4.jpeg",
+              [
+                "pencil"
+              ],
+              "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser3.jpeg",
+              [
+                "eraser"
+              ]
+            ],
+            "labelStats" : {
+              "eraser" : 15,
+              "pen" : 15,
+              "pencil" : 15
+            }
+          },
+          "issues" : [
+            {
+              "description" : "3 classes found, including pen, eraser, pencil",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Less than 50 total images found - add more to improve model validation",
+              "severity" : "warning"
+            },
+            {
+              "description" : "Smallest class is \"pencil\" with 15 images",
+              "severity" : "debug"
+            },
+            {
+              "description" : "Largest class is \"pen\" with 15 images",
+              "severity" : "debug"
+            }
+          ],
+          "objectDetectorAnalysis" : {
+            "details" : {
+
+            }
+          },
+          "summary" : {
+            "canUseValidation" : 0,
+            "classCount" : 3,
+            "sampleCount" : 45
+          }
+        },
+        "dataSourceID" : "E0A9935F-6B56-4746-8EC5-120AEAD1B8FA",
+        "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/",
+        "itemsCount" : 45
+      },
+      "dataSourceID" : "E0A9935F-6B56-4746-8EC5-120AEAD1B8FA",
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 1,
+          "confusionMatrix" : [
+            {
+              "actual" : "eraser",
+              "count" : 15,
+              "expected" : "eraser"
+            },
+            {
+              "actual" : "pen",
+              "count" : 15,
+              "expected" : "pen"
+            },
+            {
+              "actual" : "pencil",
+              "count" : 15,
+              "expected" : "pencil"
+            }
+          ],
+          "statsByLabel" : {
+            "eraser" : {
+              "count" : 15,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "pen" : {
+              "count" : 15,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            },
+            "pencil" : {
+              "count" : 15,
+              "precisionRecall" : {
+                "success" : {
+                  "precision" : 1,
+                  "recall" : 1
+                }
+              }
+            }
+          }
+        }
+      },
+      "id" : "5f91dc1a-513d-449c-aecd-d6743fb953b2"
+    },
+    "validationEvaluationEntity" : {
+      "analysedDataType" : "auto",
+      "createdDate" : "2026-08-10T02:47:12Z",
+      "dataResult" : {
+        "createdDate" : "2026-08-10T02:49:10Z"
+      },
+      "evaluationResult" : {
+        "imageClassifier" : {
+          "accuracy" : 0,
+          "confusionMatrix" : [
+
+          ],
+          "statsByLabel" : {
+
+          }
+        }
+      },
+      "id" : "4951ab25-fd91-4769-8ad3-b8860d26d4e0"
+    }
+  },
+  "evaluationEntity" : {
+    "analysedDataType" : "none",
+    "dataResult" : {
+
+    },
+    "id" : "211105be-7ffd-40aa-9531-a88b074ba6e1"
+  },
+  "evaluationState" : "uninitialized",
+  "id" : "96E27489-3847-443F-A4DD-6F3B2E5382DF",
+  "modelEntity" : {
+    "createdDate" : "2026-08-10T02:47:12Z",
+    "experimentID" : "96E27489-3847-443F-A4DD-6F3B2E5382DF",
+    "id" : "2E7A4877-53BD-4B96-81AF-42F891710F5D",
+    "modelURL" : "Models/MyStationaryClass%201.mlmodel",
+    "modifiedDate" : "2026-08-10T02:47:12Z",
+    "title" : "",
+    "version" : "1.0"
+  },
+  "modifiedDate" : "2026-08-10T02:53:39Z",
+  "preferredFilename" : "MyStationaryClass 1",
+  "settingEntity" : {
+    "algorithmType" : "maxEnt",
+    "augmentations" : [
+
+    ],
+    "featureExtractorType" : "scenePrintV1",
+    "featureNames" : [
+
+    ],
+    "handActionClassifierAugmentations" : [
+
+    ],
+    "handPoseClassifierAugmentations" : [
+
+    ],
+    "harVideoAugmentations" : 0,
+    "iterationCount" : 25,
+    "seedType" : "default",
+    "styleTransferAlgorithmType" : "image",
+    "taskType" : "imageClassifier",
+    "transferLearningEmbeddingType" : "dynamic"
+  },
+  "snapshotRole" : {
+    "withoutSnapshots" : 0
+  },
+  "state" : "trained",
+  "title" : "MyStationaryClass 1",
+  "trainingEntity" : {
+    "analysedDataType" : "datasource",
+    "checkpointMetrics" : {
+      "25" : {
+        "createdDate" : "2026-08-10T02:51:38Z",
+        "iteration" : 25,
+        "metrics" : {
+
+        }
+      }
+    },
+    "dataResult" : {
+      "classesCount" : 3,
+      "createdDate" : "2026-08-10T02:49:10Z",
+      "dataAnalysis" : {
+        "classifierAnalysis" : {
+          "details" : [
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil14.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen2.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil2.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil3.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen9.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil7.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen5.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil1.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen13.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil8.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil10.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen11.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen4.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser6.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen1.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen10.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil5.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser8.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser14.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil12.png",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser13.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen7.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil11.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser10.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil6.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen14.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser4.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen12.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser7.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser11.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser9.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil13.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser2.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser12.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser5.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil15.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen6.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil9.png",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen3.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen15.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pen/pen8.jpeg",
+            [
+              "pen"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser1.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser15.jpeg",
+            [
+              "eraser"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/pencil/pencil4.jpeg",
+            [
+              "pencil"
+            ],
+            "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/eraser/eraser3.jpeg",
+            [
+              "eraser"
+            ]
+          ],
+          "labelStats" : {
+            "eraser" : 15,
+            "pen" : 15,
+            "pencil" : 15
+          }
+        },
+        "issues" : [
+          {
+            "description" : "3 classes found, including pen, eraser, pencil",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Less than 50 total images found - add more to improve model validation",
+            "severity" : "warning"
+          },
+          {
+            "description" : "Smallest class is \"pencil\" with 15 images",
+            "severity" : "debug"
+          },
+          {
+            "description" : "Largest class is \"pen\" with 15 images",
+            "severity" : "debug"
+          }
+        ],
+        "objectDetectorAnalysis" : {
+          "details" : {
+
+          }
+        },
+        "summary" : {
+          "canUseValidation" : 0,
+          "classCount" : 3,
+          "sampleCount" : 45
+        }
+      },
+      "dataSourceID" : "E0A9935F-6B56-4746-8EC5-120AEAD1B8FA",
+      "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Training/",
+      "itemsCount" : 45
+    },
+    "dataSourceID" : "E0A9935F-6B56-4746-8EC5-120AEAD1B8FA",
+    "featureExtractionCheckpointMayBeAvailable" : false,
+    "finishTime" : "2026-08-10T02:51:38Z",
+    "progress" : [
+      {
+        "count" : 0,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 1,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 2,
+        "currentRowIndex" : 0,
+        "icTrainingColumnHeader" : {
+          "elapsedTime" : 0.02022397518157959,
+          "hasValidation" : false,
+          "iterationCount" : 2,
+          "trainingAccuracy" : 1,
+          "validationAccuracy" : 0
+        },
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 5,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 10,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 15,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 20,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 25,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 1
+      },
+      {
+        "count" : 30,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 35,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 40,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : false,
+        "tableIndex" : 0
+      },
+      {
+        "count" : 45,
+        "currentRowIndex" : 0,
+        "isLast" : false,
+        "percentComplete" : 0,
+        "tableDone" : true,
+        "tableIndex" : 0
+      }
+    ],
+    "resumableCheckpoint" : {
+      "checkpointURL" : "file:///Users/stdc_45/Library/Caches/com.apple.dt.createml/projects/12DE76BD-9901-4EB3-9699-1AF5E3E3274990b3f6e41a68bbcc06c90a9ffc9c1680c3a814ed/sessions/checkpoint.sessions/96E27489-3847-443F-A4DD-6F3B2E5382DF/training-000000025.checkpoint",
+      "createdDate" : "2026-08-10T02:51:38Z",
+      "iteration" : 25
+    },
+    "resumableCheckpointURL" : "Checkpoints/96E27489-3847-443F-A4DD-6F3B2E5382DF.MyStationaryClass1.checkpoint",
+    "snapshottableCheckpointModelURL" : "Checkpoints/96E27489-3847-443F-A4DD-6F3B2E5382DF.MyStationaryClass1.checkpoint/training-000000025.checkpoint.model/checkpointModel.mlmodel",
+    "snapshottableCheckpoints" : {
+      "25" : {
+        "createdDate" : "2026-08-10T02:51:38Z",
+        "iteration" : 25,
+        "modelURL" : "file:///Users/stdc_45/Library/Caches/com.apple.dt.createml/projects/12DE76BD-9901-4EB3-9699-1AF5E3E3274990b3f6e41a68bbcc06c90a9ffc9c1680c3a814ed/sessions/checkpoint.sessions/96E27489-3847-443F-A4DD-6F3B2E5382DF/training-000000025.checkpoint.model/checkpointModel.mlmodel"
+      }
+    },
+    "startTime" : "2026-08-10T02:51:36Z",
+    "trainingAccuracy" : 1,
+    "trainingResults" : {
+      "imageClassifier" : {
+        "accuracy" : 1,
+        "confusionMatrix" : [
+          {
+            "actual" : "eraser",
+            "count" : 15,
+            "expected" : "eraser"
+          },
+          {
+            "actual" : "pen",
+            "count" : 15,
+            "expected" : "pen"
+          },
+          {
+            "actual" : "pencil",
+            "count" : 15,
+            "expected" : "pencil"
+          }
+        ],
+        "statsByLabel" : {
+          "eraser" : {
+            "count" : 15,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "pen" : {
+            "count" : 15,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          },
+          "pencil" : {
+            "count" : 15,
+            "precisionRecall" : {
+              "success" : {
+                "precision" : 1,
+                "recall" : 1
+              }
+            }
+          }
+        }
+      }
+    },
+    "validationAccuracy" : 0,
+    "validationResults" : {
+      "imageClassifier" : {
+        "accuracy" : 0,
+        "confusionMatrix" : [
+
+        ],
+        "statsByLabel" : {
+
+        }
+      }
+    }
+  },
+  "validationEntity" : {
+    "analysedDataType" : "auto",
+    "dataResult" : {
+      "createdDate" : "2026-08-10T02:49:10Z"
+    },
+    "splitOptions" : {
+      "strategy" : {
+        "automatic" : {
+
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

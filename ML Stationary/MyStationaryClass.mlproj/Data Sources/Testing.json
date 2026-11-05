@@ -1,0 +1,31 @@
+{
+  "activityEntities" : [
+    "dataSourceCreated",
+    [
+      {
+        "createdDate" : "2026-08-10T02:53:39Z",
+        "event" : "dataSourceCreated",
+        "id" : "8015A082-CA76-45E5-9F0F-E9FAA2AB162B",
+        "subtitle" : "Testing",
+        "title" : "Data Source Created"
+      }
+    ]
+  ],
+  "createdDate" : "2026-08-10T02:53:39Z",
+  "dataPathRelativeToProjectURL" : "../programming/ML%20Stationary/Testing/",
+  "dataResult" : {
+    "createdDate" : "2026-08-10T02:53:39Z",
+    "dataSourceID" : "34C0F5D5-B7B1-4D98-8E56-BA3CA0107B49",
+    "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/"
+  },
+  "dataURL" : "file:///Users/stdc_45/Desktop/programming/ML%20Stationary/Testing/",
+  "experimentIDs" : [
+    "96E27489-3847-443F-A4DD-6F3B2E5382DF"
+  ],
+  "id" : "34C0F5D5-B7B1-4D98-8E56-BA3CA0107B49",
+  "modifiedDate" : "2026-08-10T02:53:39Z",
+  "pathType" : 0,
+  "preferredFilename" : "Testing",
+  "title" : "Testing",
+  "version" : "1.0"
+}

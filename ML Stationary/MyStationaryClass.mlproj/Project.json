@@ -1,0 +1,29 @@
+{
+  "activityEntities" : [
+    "projectCreated",
+    [
+      {
+        "createdDate" : "2026-08-10T02:47:11Z",
+        "event" : "projectCreated",
+        "id" : "82D801D5-D9E9-499E-AC73-2FD20A891F3F",
+        "subtitle" : "MyStationaryClass",
+        "title" : "Project Created"
+      }
+    ]
+  ],
+  "authorName" : "STDC_45",
+  "createdDate" : "2026-08-10T02:47:11Z",
+  "description" : "",
+  "id" : "12DE76BD-9901-4EB3-9699-1AF5E3E32749",
+  "license" : "",
+  "location" : "",
+  "modifiedDate" : "2026-08-10T02:47:11Z",
+  "projectName" : "MyStationaryClass",
+  "settingsEntity" : {
+    "snapshotOnExtendTraining" : true,
+    "snapshotOnResumeTraining" : false
+  },
+  "taskType" : "imageClassifier",
+  "title" : "Image Classification",
+  "version" : "1.1"
+}
